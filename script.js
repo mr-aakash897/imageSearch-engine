@@ -1,6 +1,6 @@
 
 // === script.js ===
-const accessKey = "bXyqkWcYkTLDnf-qPtEir28UryOQxVk57Bkplt18ZiA";
+const accessKey = "write your own unsplash API";
 const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
 const searchResult = document.getElementById("search-result");
