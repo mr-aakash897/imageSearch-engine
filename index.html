@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Search Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="title"><b><u>imageSearch</u></b></h1>
+    <div class="auth-buttons">
+      <!-- <button class="btn" onclick="openAuthModal('login')">Login</button>
+      <button class="btn" onclick="openAuthModal('register')">Register</button> -->
+      <button id="mode-toggle" aria-label="Toggle Dark Mode">
+        <span id="mode-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <form id="search-form" class="search-form">
+      <input type="text" id="search-box" placeholder="Search for high quality images..." required />
+      <button class="btn" type="submit">Search</button>
+      
+    </form>
+
+    <section id="search-result" class="image-grid"></section>
+    <button id="show-more-btn" class="btn" style="display: none;">Show More</button>
+  </main>
+
+  <!-- Modal -->
+  <div id="auth-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeAuthModal()">&times;</span>
+
+      <div id="login-form" class="auth-form">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button class="btn">Login</button>
+      </div>
+
+      <div id="register-form" class="auth-form" style="display: none;">
+        <h2>Register</h2>
+        <input type="text" placeholder="Username" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button class="btn">Register</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>About</h3>
+        <p>Search and explore beautiful images using Unsplash API. Created with ❤️ by Developers.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Image Search Engine. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
