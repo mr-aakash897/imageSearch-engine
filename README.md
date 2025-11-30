@@ -1,7 +1,7 @@
 # imageSearch-engine
 <h2><u>🔍 Image Search Engine</u></h2>
 
-A modern and lightweight Image Search Engine built with HTML, CSS, and JavaScript, that fetches high-quality images instantly from the web.
+A modern and lightweight Image Search Engine built with HTML, CSS, and JavaScript, that fetches high-quality images instantly from the web. deployed-link : a3n-imagesearch.netlify.app
 
 <b>✨ Features :</b>
 <ul>
